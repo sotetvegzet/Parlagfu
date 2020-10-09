@@ -1,0 +1,70 @@
+*{
+    border: 1px solid blue;
+}
+html{
+    background-color: #fff;
+    
+}
+body{
+    background-color: #9cee59;
+    width:80%;
+    margin:auto;
+    padding-top: 5px;
+}
+.tarto{
+    outline: 15px solid;
+    border-left: 15px solid #509050;
+    border-bottom: 15px solid #509050;
+    border-right: 15px solid #509050;
+
+}
+.fokep{
+    position: relative;
+    height: 250px;
+}
+.gyom{
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    padding-top: 15px;
+    border-radius: 50%;
+}
+.gyom img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 35%;
+}
+.fokep p{
+    position: absolute;
+    top:35px;
+    float:right;
+    font-size: 5em;
+    color: white;
+}
+.sav ul{
+    margin:  0px;
+    padding: 0px;
+    list-style-type: none;
+    overflow: hidden;
+
+}
+.sav ul li{
+    float: left;
+    border-right: 2px solid white;
+    width:16,47%;
+    text-align: center;
+
+}
+.sav ul li a{
+  text-decoration: none;  
+  display: block;
+  padding: 10px;
+  background-color: black;
+  color: white;
+
+}
